@@ -5,6 +5,7 @@ using System.Web;
 
 namespace System
 {
+    [AttributeUsage(AttributeTargets.Enum)]
     public class EnumDescriptionAttribute : Attribute
     {
         public Type ResourceType { get; set; }
